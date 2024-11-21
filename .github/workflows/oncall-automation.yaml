@@ -3,7 +3,7 @@ name: oncall-automation
 on:
   schedule:
     # Trigger the workflow at the start of every hour
-    - cron: '*/10 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   fetch-schedule:
