@@ -6,7 +6,7 @@ on:
     - cron: '* * * * *'
 
 jobs:
-  fetch-schedule:
+  cron:
     runs-on: ubuntu-latest
 
     steps:
